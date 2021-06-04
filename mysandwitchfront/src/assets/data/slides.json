@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Los Mejores",
+    "desc": "Los mejores de la ciudad.",
+    "image": "assets/images/carousel/1.jpg"
+  },
+  {
+    "title": "No hay otros",
+    "desc": "Ningun otro sandwitch nos supera en sabor y calidad.",
+    "image": "assets/images/carousel/3.jpg"
+  },
+  {
+    "title": "Como saludable",
+    "desc": "Es fundamental comer saludablemente.",
+    "image": "assets/images/carousel/2.jpg"
+  }
+]

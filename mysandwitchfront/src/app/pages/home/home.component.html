@@ -1,0 +1,175 @@
+<app-header-image
+  *ngIf="settings.header == 'image'"
+  [backgroundImage]="'assets/images/others/homepage.jpg'"
+  [bgImageAnimate]="true"
+  [contentOffsetToTop]="true"
+  [title]="'MySandwitch'"
+  [desc]="'¿Qu&eacute; deseas probar hoy?'"
+  [isHomePage]="true"
+  [fullscreen]="false"
+>
+</app-header-image>
+
+<app-header-carousel
+  *ngIf="settings.header == 'carousel'"
+  [slides]="slides"
+  [contentOffsetToTop]="false"
+  [fullscreen]="false"
+>
+</app-header-carousel>
+
+<app-header-video
+  *ngIf="settings.header == 'video'"
+  [backgroundVideo]="'http://themeseason.com/data/videos/restaurant.mp4'"
+  [contentOffsetToTop]="true"
+  [title]="'MySandwitch'"
+  [desc]="'¿Qu&eacute; deseas probar hoy?'"
+  [isHomePage]="true"
+  [fullscreen]="false"
+>
+</app-header-video>
+
+<div class="section mt-3">
+  <div class="px-3">
+    <div class="theme-container">
+      <h1 class="section-title">Sobre nosotros</h1>
+      <p class="section-desc text-muted">
+        En My Sandwitch somos conscientes de la importancia de ejecutar acciones
+        responsables con el medio ambiente y la sociedad, por eso, en cada paso
+        que damos hacia el futuro nos comprometemos a implementar prácticas
+        sostenibles que contribuyan al desarrollo económico, ecológico y social
+        de nuestro país.
+      </p>
+      <mat-card class="p-0 o-hidden" fxLayout="row wrap">
+        <div fxFlex="100" fxFlex.gt-sm="50" fxFlex.sm="50">
+          <img
+            src="assets/images/others/about-3.jpg"
+            alt="about"
+            class="mw-100 d-block"
+          />
+        </div>
+        <div fxFlex="100" fxFlex.gt-sm="50" fxFlex.sm="50" class="py-3 px-4">
+          <h1 class="secondary-font primary-color mb-2">
+            Desde el 2021, a tu servicio
+          </h1>
+          <p>
+            My Sandwich es una empresa Colombiana con más de 2 meses en el
+            mercado, experta en la preparación de sándwiches con recetas
+            innovadoras, ingredientes frescos y de calidad.
+          </p>
+          <p>
+            Poco a poco fueron aprendiendo y perfeccionando la idea de
+            FRANQUICIAS EL SANDWICH Perfecto, hasta que en el año 2021 se
+            sintieron lo suficientemente maduros como para otorgar la primera
+            Franquicia en la ciudad de Barranquilla, Colombia. Así fueron
+            creciendo hasta llegar a lo que son actualmente, una cadena nacional
+            con 235 puntos de venta, 5 en Ciudad de Panama y 1 en Miami, 93
+            Franquiciados y con muchas más proyectadas a otorgarse tanto
+            nacional como internacionalmente.
+          </p>
+          <div
+            fxLayout="row wrap"
+            fxLayoutAlign="space-between center"
+            class="pt-3"
+          >
+            <img src="assets/images/others/signature.png" alt="signature" />
+            <!--
+            <a
+              mat-raised-button
+              routerLink="/about"
+              color="primary"
+              class="uppercase"
+              >Conocer m&aacute;s</a
+            >
+            -->
+          </div>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</div>
+<!--
+<div class="section default mt-3">
+  <div class="px-3">
+    <div class="theme-container">
+      <h1 class="section-title">Special menu</h1>
+      <p class="section-desc text-muted">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <app-menu-items-carousel
+        [menuItems]="specialMenuItems"
+      ></app-menu-items-carousel>
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <a
+          mat-raised-button
+          routerLink="/menu"
+          color="primary"
+          class="uppercase"
+          >Ver todo el menu</a
+        >
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<!--<app-our-services></app-our-services>-->
+
+<!--
+
+
+    <div class="section">
+  <div class="px-3">
+    <div class="theme-container">
+      <h1 class="section-title mb-3">Today Menu</h1>
+      <p class="section-desc text-muted">
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit.
+      </p>
+      <app-today-menu [menuItem]="todayMenu"></app-today-menu>
+    </div>
+  </div>
+</div>
+
+<div class="section default mt-3">
+  <div class="px-3">
+    <div class="theme-container">
+      <h1 class="section-title">Our best dishes</h1>
+      <p class="section-desc text-muted">
+        The best dishes of the city for our clients.
+      </p>
+      <app-menu-items-carousel
+        [menuItems]="bestMenuItems"
+      ></app-menu-items-carousel>
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <a
+          mat-raised-button
+          routerLink="/menu"
+          color="primary"
+          class="uppercase"
+          >View all menu</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+    <app-our-chefs></app-our-chefs>
+    <app-timeline></app-timeline>
+<div class="section">
+  <div class="px-3">
+    <div class="theme-container">
+      <h1 class="section-title mb-3">Reservation</h1>
+      <p class="section-desc text-muted">
+        We provide free, secure and instantly confirmed online reservation.
+      </p>
+      <mat-card class="p-0" ngClass.lt-md="px-2 pb-2">
+        <app-reservation-form></app-reservation-form>
+      </mat-card>
+    </div>
+  </div>
+</div>
+
+<app-testimonials></app-testimonials>  
+<app-get-app></app-get-app>
+<app-our-awards></app-our-awards>   
+<app-get-in-touch></app-get-in-touch>
+-->

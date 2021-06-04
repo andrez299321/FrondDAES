@@ -1,0 +1,18 @@
+[
+    {
+    "id" : 1,
+    "name": "sandwiche",
+    "price" : 10000,
+    "description": "delicioso",
+    "image": "https://okdiario.com/img/2019/01/21/receta-de-sandwinch-de-jamon-y-queso-con-mostaza-655x368.jpg",
+    "state": true
+  },
+  {
+    "id" : 1,
+    "name": "sandwiche2",
+    "price" : 10000,
+    "description": "horrible",
+    "image": "https://okdiario.com/img/2019/01/21/receta-de-sandwinch-de-jamon-y-queso-con-mostaza-655x368.jpg",
+    "state": true
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "/GetAllProduct": {
+    "target": "https://jvproductservices.azurewebsites.net",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

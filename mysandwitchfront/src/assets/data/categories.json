@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Carne", "description": "Con rica carne" },
+  { "id": 2, "name": "Vegetarianos", "description": "Para cuidar el planeta" },
+  { "id": 3, "name": "Sin vegetales", "description": "Carnivoros" }
+]
